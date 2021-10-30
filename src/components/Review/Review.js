@@ -1,5 +1,7 @@
 import React from "react";
 import "./Review.css";
+import { FaStar } from "react-icons/fa";
+
 const Review = () => {
   return (
     <div style={{ marginTop: 50 }}>
@@ -18,76 +20,96 @@ const Review = () => {
             <div class="swiper-slide">
               <div class="box">
                 <img src="images/pic1.png" alt="" />
-                <h3>john deo</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                  adipisci quisquam sunt nesciunt fugiat odit minus illum
-                  asperiores dolorum enim sint quod ipsam distinctio molestias
-                  consectetur ducimus beatae, reprehenderit exercitationem!
-                </p>
+                <h3>nataile portman</h3>
+                <p>So excited to touch you...........</p>
                 <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="box">
                 <img src="images/pic2.png" alt="" />
-                <h3>john deo</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                  adipisci quisquam sunt nesciunt fugiat odit minus illum
-                  asperiores dolorum enim sint quod ipsam distinctio molestias
-                  consectetur ducimus beatae, reprehenderit exercitationem!
-                </p>
+                <h3>john abest</h3>
+                <p>Ahhh.......what an exciting ride it was.....</p>
                 <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="box">
                 <img src="images/pic3.png" alt="" />
-                <h3>john deo</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                  adipisci quisquam sunt nesciunt fugiat odit minus illum
-                  asperiores dolorum enim sint quod ipsam distinctio molestias
-                  consectetur ducimus beatae, reprehenderit exercitationem!
-                </p>
+                <h3>rici ben</h3>
+                <p>Yay......I wish I could go again and again...</p>
                 <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="box">
                 <img src="images/pic4.png" alt="" />
-                <h3>john deo</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                  adipisci quisquam sunt nesciunt fugiat odit minus illum
-                  asperiores dolorum enim sint quod ipsam distinctio molestias
-                  consectetur ducimus beatae, reprehenderit exercitationem!
-                </p>
+                <h3>nathan leg</h3>
+                <p>Excellent! Mind blowing.....just out of the world.......</p>
                 <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
+                  <i class="fas fa-star">
+                    <FaStar></FaStar>
+                  </i>
                 </div>
               </div>
             </div>
