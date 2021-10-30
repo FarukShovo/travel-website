@@ -21,6 +21,7 @@ const Header = () => {
         <Link to="/gallery">Gallery</Link>
         <Link to="/booking">Booking</Link>
         <Link to="/review">Review</Link>
+        <Link to="/placeorder">PlaceOrder</Link>
 
         {user.email ? (
           <button onClick={handleLogout} className="btn btn-primary">

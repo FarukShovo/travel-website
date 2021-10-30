@@ -24,7 +24,7 @@ const Footer = () => {
             <p>
               We are dedicated to make you happy in any go you want just like
               your wish. We will keep in touch with you 24/7 where you need. So
-              without any doubt, you can rely on us. Happy go round!s
+              without any doubt, you can rely on us. Happy go round!
             </p>
           </div>
           <div class="box">

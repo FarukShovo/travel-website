@@ -6,17 +6,22 @@ const Login = () => {
   const { handleGoogleLogin } = useFirebase();
 
   return (
-    <section className="book login" id="book">
-      <h1 className="heading">
-        <span>Login</span> now
-      </h1>
+    <div style={{ marginTop: 50 }}>
+      <section className="book login" id="book">
+        <h1 className="heading">
+          <span>Login</span>
+        </h1>
 
-      <div className="row">
-        <button onClick={handleGoogleLogin} className="btn btn-warning">
-          Google Sign In
-        </button>
-      </div>
-    </section>
+        <div className="row">
+          <button
+            onClick={handleGoogleLogin}
+            className="btn btn-light justify-content-center"
+          >
+            Google Sign In
+          </button>
+        </div>
+      </section>
+    </div>
   );
 };
 

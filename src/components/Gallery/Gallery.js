@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Gallery.css";
 const Gallery = () => {
   return (
@@ -20,9 +21,9 @@ const Gallery = () => {
             <div className="content">
               <h3>ocean</h3>
               <p>Ocean is just calling you...........</p>
-              <a href="#" className="btn">
+              <Link to="#" className="btn">
                 see more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -30,9 +31,9 @@ const Gallery = () => {
             <div className="content">
               <h3>Boat</h3>
               <p>Sleepy blue ocean by boat..............</p>
-              <a href="#" className="btn">
+              <Link to="#" className="btn">
                 see more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -40,9 +41,9 @@ const Gallery = () => {
             <div className="content">
               <h3>Monuments</h3>
               <p>Monuments are calling........</p>
-              <a href="#" className="btn">
+              <Link to="#" className="btn">
                 see more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -50,9 +51,9 @@ const Gallery = () => {
             <div className="content">
               <h3>Roads in forest</h3>
               <p>Forests are calling......</p>
-              <a href="#" className="btn">
+              <Link to="#" className="btn">
                 see more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -60,9 +61,9 @@ const Gallery = () => {
             <div className="content">
               <h3>blue sky</h3>
               <p>Ahhhh.......calling...</p>
-              <a href="#" className="btn">
+              <Link to="#" className="btn">
                 see more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -70,9 +71,9 @@ const Gallery = () => {
             <div className="content">
               <h3>sunrise</h3>
               <p>A new promise is calling........</p>
-              <a href="#" className="btn">
+              <Link to="#" className="btn">
                 see more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -80,9 +81,9 @@ const Gallery = () => {
             <div className="content">
               <h3>color in life</h3>
               <p>can you hear the color.......?</p>
-              <a href="#" className="btn">
+              <Link to="#" className="btn">
                 see more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -90,9 +91,9 @@ const Gallery = () => {
             <div className="content">
               <h3>lap of nature</h3>
               <p>How exciting night stay close to nature.....</p>
-              <a href="#" className="btn">
+              <Link to="#" className="btn">
                 see more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -100,9 +101,9 @@ const Gallery = () => {
             <div className="content">
               <h3>pyramid</h3>
               <p>the oldest tomb in the world.......</p>
-              <a href="#" className="btn">
+              <Link to="#" className="btn">
                 see more
-              </a>
+              </Link>
             </div>
           </div>
         </div>

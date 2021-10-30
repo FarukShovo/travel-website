@@ -3,7 +3,11 @@ import "./NotFound.css";
 const NotFound = () => {
   return (
     <div>
-      <h2>404</h2>
+      <img
+        className="img-NotFound"
+        src="https://pbs.twimg.com/media/EOvhLDJU4AE5ZlH.jpg"
+        alt=""
+      />
     </div>
   );
 };
