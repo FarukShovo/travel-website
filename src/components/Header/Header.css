@@ -1,0 +1,15 @@
+.navigation {
+  background-color: rgb(190, 190, 154);
+}
+.nav-image {
+  width: 50px;
+}
+.nav-link a:hover {
+  color: red !important;
+}
+a {
+  text-decoration: none;
+  color: rgb(33, 192, 139);
+  display: inline-block;
+  margin: 5px;
+}
