@@ -52,17 +52,18 @@ section {
 .btn {
   display: inline-block;
   margin-top: 1rem;
-  background: var(--orange);
-  color: #fff;
+  background: rgb(152, 167, 131);
+  color: white;
   padding: 0.8rem 3rem;
-  border: 0.2rem solid var(--orange);
+  border: 0.2rem solid red;
   cursor: pointer;
   font-size: 1.7rem;
 }
 
 .btn:hover {
-  background: rgba(255, 165, 0, 0.2);
-  color: var(--orange);
+  background: rgba(83, 81, 77, 0.2);
+  color: black;
+  border-radius: 50px;
 }
 
 header {
@@ -148,7 +149,7 @@ header .search-bar-container label:hover {
   color: var(--orange);
 }
 
-.login-form-container {
+/* .login-form-container {
   position: fixed;
   top: -120%;
   left: 0;
@@ -230,7 +231,7 @@ header .search-bar-container label:hover {
   font-size: 5rem;
   color: #fff;
   cursor: pointer;
-}
+} */
 
 #menu-bar {
   color: #fff;
@@ -352,6 +353,7 @@ header .search-bar-container label:hover {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  background-color: rgb(209, 197, 221);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
@@ -408,6 +410,7 @@ header .search-bar-container label:hover {
   border-radius: 0.5rem;
   padding: 1rem;
   text-align: center;
+  background-color: rgb(174, 192, 174);
 }
 
 .services .box-container .box i {

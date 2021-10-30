@@ -20,7 +20,7 @@ const Packages = () => {
           <img src="images/p-1.jpg" alt="" />
           <div class="content">
             <h3>
-              <i class="fas fa-map-marker-alt"></i> mumbai
+              <i class="fas fa-map-marker-alt"></i> fantastic mumbai
             </h3>
             <p>
               Mumbai is the centre of the Mumbai Metropolitan Region, the sixth
@@ -47,7 +47,7 @@ const Packages = () => {
           <img src="images/p-2.jpg" alt="" />
           <div class="content">
             <h3>
-              <i class="fas fa-map-marker-alt"></i> hawaii
+              <i class="fas fa-map-marker-alt"></i> mind blowing hawaii
             </h3>
             <p>
               Hawaii is a state in the Western United States located in the
@@ -75,7 +75,7 @@ const Packages = () => {
           <img src="images/p-3.jpg" alt="" />
           <div class="content">
             <h3>
-              <i class="fas fa-map-marker-alt"></i> sydney
+              <i class="fas fa-map-marker-alt"></i> skyscraper sydney
             </h3>
             <p>
               Sydney, capital of New South Wales and one of Australia's largest
@@ -103,7 +103,7 @@ const Packages = () => {
           <img src="images/p-4.jpg" alt="" />
           <div class="content">
             <h3>
-              <i class="fas fa-map-marker-alt"></i> paris
+              <i class="fas fa-map-marker-alt"></i>dazzling paris
             </h3>
             <p>
               Paris is the capital and most populous city of France, with an
@@ -130,7 +130,7 @@ const Packages = () => {
           <img src="images/p-5.jpg" alt="" />
           <div class="content">
             <h3>
-              <i class="fas fa-map-marker-alt"></i> tokyo
+              <i class="fas fa-map-marker-alt"></i> eye-catching tokyo
             </h3>
             <p>
               Tokyo, Japan’s busy capital, mixes the ultramodern and the
@@ -158,7 +158,7 @@ const Packages = () => {
           <img src="images/p-6.jpg" alt="" />
           <div class="content">
             <h3>
-              <i class="fas fa-map-marker-alt"></i> cairo
+              <i class="fas fa-map-marker-alt"></i>ancient cairo
             </h3>
             <p>
               Cairo, Egypt’s sprawling capital, is set on the Nile River. At its

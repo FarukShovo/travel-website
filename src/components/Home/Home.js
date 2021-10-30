@@ -19,10 +19,6 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className="controls">
-          <span className="vid-btn active" data-src="images/vid-1.mp4"></span>
-        </div>
-
         <div className="video-container">
           <video
             src="images/vid-1.mp4"

@@ -3,7 +3,7 @@ import "./Services.css";
 import { FaHotel, FaUtensils, FaPlane, FaHiking } from "react-icons/fa";
 import { MdSafetyDivider } from "react-icons/md";
 import { BiWorld } from "react-icons/bi";
-// import { MdSafetyDivider } from "react-icons/md";
+
 const Services = () => {
   return (
     <section style={{ marginTop: 50 }} class="services" id="services">
