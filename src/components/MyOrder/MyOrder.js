@@ -8,7 +8,9 @@ const MyOrder = () => {
     fetch(`https://chilling-demon-70491.herokuapp.com/places/${placeId}`)
       .then((res) => res.json())
       .then((data) => setPlace(data));
+    // console.log(data);
   }, []);
+  console.log(placeId);
   return (
     <div style={{ marginTop: 200 }}>
       <h2>Details of:{place.name}</h2>

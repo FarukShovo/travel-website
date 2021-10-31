@@ -21,11 +21,8 @@ const Login = () => {
           <span>Login</span>
         </h1>
 
-        <div className="row">
-          <button
-            onClick={handleGoogleLogin}
-            className="btn btn-light justify-content-center"
-          >
+        <div className="text-center">
+          <button onClick={handleGoogleLogin} className="btn btn-danger">
             Google Sign In
           </button>
         </div>

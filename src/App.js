@@ -44,15 +44,10 @@ function App() {
           <Route exact path="/booking">
             <Booking></Booking>
           </Route>
-          <Route exact path="/details">
-            <Details></Details>
-          </Route>
           <Route exact path="/myOrder">
             <MyOrder></MyOrder>
           </Route>
-          <Route exact path="/details">
-            <Details></Details>
-          </Route>
+
           <Route exact path="/review">
             <Review></Review>
           </Route>

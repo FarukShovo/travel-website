@@ -20,11 +20,8 @@ const Header = () => {
       <nav className="navbar">
         <Link to="/home">Home</Link>
         <Link to="/packages">Packages</Link>
-        <Link to="/services">Services</Link>
-        <Link to="/gallery">Gallery</Link>
-        <Link to="/booking">Booking</Link>
-        <Link to="/review">Review</Link>
         <Link to="/placeOrder">PlaceOrder</Link>
+        <Link to="/manageServices">Manage Services</Link>
         <Link to="/addService">Add Service</Link>
 
         {user.email ? (

@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import "./Package.css";
 
 const Package = (props) => {
-  const { _id, img, name, description, price } = props.package;
+  const { img, name, description, price } = props.package;
 
   return (
     <div className="col service-card">
@@ -15,7 +15,7 @@ const Package = (props) => {
           <h5>Description:{description}</h5>
           <h5>Price:{price}</h5>
 
-          <Link to={`/details/${_id}`}>Details</Link>
+          <button className="btn btn-primary">Details</button>
         </div>
       </div>
     </div>
