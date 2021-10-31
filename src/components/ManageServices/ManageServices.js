@@ -3,12 +3,12 @@ import React, { useEffect, useState } from "react";
 const ManageServices = () => {
   const [places, setPlaces] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/places")
+    fetch("https://chilling-demon-70491.herokuapp.com/places")
       .then((res) => res.json())
       .then((data) => setPlaces(data));
   }, []);
   const handleDelete = (id) => {
-    const url = `http://localhost:5000/places/${id}`;
+    const url = `https://chilling-demon-70491.herokuapp.com/places/${id}`;
     fetch(url, {
       method: "DELETE",
     })
@@ -25,12 +25,17 @@ const ManageServices = () => {
   };
 
   return (
-    <div style={{ marginTop: 150 }}>
-      <h2>manage services</h2>
+    <div style={{ marginTop: 100 }}>
+      <h2 className="text-center mb-3">manage services</h2>
       {places.map((place) => (
-        <div key={place._id}>
+        <div className="text-center mb-3" key={place._id}>
           <h3>{place.name}</h3>
-          <button onClick={() => handleDelete(place._id)}>Delete</button>
+          <button
+            className="btn btn-danger"
+            onClick={() => handleDelete(place._id)}
+          >
+            Delete
+          </button>
         </div>
       ))}
     </div>

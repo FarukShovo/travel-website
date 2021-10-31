@@ -5,7 +5,7 @@ const MyOrder = () => {
   const { placeId } = useParams();
   const [place, setPlace] = useState({});
   useEffect(() => {
-    fetch(`http://localhost:5000/places/${placeId}`)
+    fetch(`https://chilling-demon-70491.herokuapp.com/places/${placeId}`)
       .then((res) => res.json())
       .then((data) => setPlace(data));
   }, []);
