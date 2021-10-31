@@ -11,7 +11,7 @@ const Packages = () => {
   }, []);
   return (
     <div style={{ marginTop: 90 }}>
-      <h2 className="text-center">Packages</h2>
+      <h2 className="text-center bg-warning">Packages</h2>
       <div className="row row-cols-md-3 g-3">
         {packages.map((p) => (
           <Package key={p.id} package={p}></Package>
