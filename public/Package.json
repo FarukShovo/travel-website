@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "picture": "images/p-1.jpg",
+    "name": "Mumbai",
+    "description": "Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924.",
+    "price": "200"
+  },
+  {
+    "id": "2",
+    "picture": "images/p-2.jpg",
+    "name": "Hawaii",
+    "description": "Hawaii is a state in the Western United States located in the Pacific Ocean about 2,000 miles from the U.S. mainland. It is the only state outside North America, the only state that is an archipelago, and the only state in the tropics.",
+    "price": "300"
+  },
+  {
+    "id": "3",
+    "picture": " images/p-3.jpg",
+    "name": "Sydney",
+    "description": "Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. Massive Darling Harbour and the smaller Circular Quay port are hubs of waterside life, with the arched Harbour Bridge and esteemed Royal Botanic Garden nearby. .",
+    "price": "120"
+  },
+  {
+    "id": "4",
+    "picture": " images/p-4.jpg",
+    "name": "Paris",
+    "description": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral,",
+    "price": "120"
+  },
+  {
+    "id": "5",
+    "picture": "images/p-5.jpg",
+    "name": "Tokoyo",
+    "description": "Tokoyo is a figure in Japanese mythology. She was the daughter of a samurai named Oribe Shima. Shima had displeased the Emperor, who was in an ill state of health, and was subsequently banished. As a result, he had to set up home on a group of islands called the Oki Islands, away from his daughter.",
+    "price": "120"
+  },
+  {
+    "id": "6",
+    "picture": "images/p-6.jpg",
+    "name": "Cairo",
+    "description": "Cairo, Egypt’s sprawling capital, is set on the Nile River. At its heart is Tahrir Square and the vast Egyptian Museum, a trove of antiquities including royal mummies and gilded King Tutankhamun artifacts. Nearby, Giza is the site of the iconic pyramids and Great Sphinx, dating to the 26th century BC. ",
+    "price": "120"
+  }
+]

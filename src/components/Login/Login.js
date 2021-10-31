@@ -1,9 +1,18 @@
 import React from "react";
+import { useHistory, useLocation } from "react-router";
 
 import useFirebase from "../../Hooks/useFirebase";
 import "./Login.css";
 const Login = () => {
-  const { handleGoogleLogin } = useFirebase();
+  const { handleGoogleLogin, user } = useFirebase();
+  let history = useHistory();
+  let location = useLocation();
+  let { from } = location.state || { from: { pathname: "/" } };
+
+  const redirect = () => {
+    return user.email ? history.replace(from) : null;
+  };
+  redirect();
 
   return (
     <div style={{ marginTop: 50 }}>

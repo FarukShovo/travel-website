@@ -29,8 +29,8 @@ const Home = () => {
           ></video>
         </div>
       </section>
-      <Services></Services>
       <Packages></Packages>
+      <Services></Services>
       <Gallery></Gallery>
     </div>
   );

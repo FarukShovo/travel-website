@@ -17,9 +17,9 @@ import { MdPreview } from "react-icons/md";
 const Footer = () => {
   return (
     <div>
-      <section class="footer">
-        <div class="box-container">
-          <div class="box">
+      <section className="footer">
+        <div className="box-container">
+          <div className="box">
             <h3>about us</h3>
             <p>
               We are dedicated to make you happy in any go you want just like
@@ -27,14 +27,17 @@ const Footer = () => {
               without any doubt, you can rely on us. Happy go round!
             </p>
           </div>
-          <div class="box">
+          <div className="box">
             <h3>branch locations</h3>
             <Link to="#">india</Link>
             <Link to="#">USA</Link>
             <Link to="#">japan</Link>
             <Link to="#">france</Link>
+            <Link to="#">bangladesh</Link>
+            <Link to="#">singapore</Link>
+            <Link to="#">egypt</Link>
           </div>
-          <div class="box">
+          <div className="box">
             <h3>quick links</h3>
             <Link to="#">
               {" "}
@@ -59,7 +62,7 @@ const Footer = () => {
               <FaContao></FaContao>contact
             </Link>
           </div>
-          <div class="box">
+          <div className="box">
             <h3>follow us</h3>
             <Link to="#">
               <FaFacebookF></FaFacebookF>facebook
@@ -76,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <h1 class="credit">
+        <h1 className="credit">
           created by <span>Souad Anam Himel</span> | all rights reserved!
         </h1>
       </section>

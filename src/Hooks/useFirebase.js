@@ -11,6 +11,7 @@ import {
 } from "firebase/auth";
 
 import { useEffect, useState } from "react";
+import { useHistory } from "react-router";
 initializeAuthentication();
 
 const useFirebase = () => {
@@ -21,7 +22,7 @@ const useFirebase = () => {
 
   //Google Sign in button
 
-  const handleGoogleLogin = () => {
+  const handleGoogleLogin = (from) => {
     return signInWithPopup(auth, provider)
       .then((result) => {
         setUser(result.user);

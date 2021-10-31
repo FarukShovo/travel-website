@@ -84,6 +84,7 @@ header .logo {
   font-weight: bolder;
   color: #fff;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 header .logo span {
@@ -94,6 +95,7 @@ header .navbar a {
   color: #fff;
   font-size: 2rem;
   margin: 0 0.8rem;
+  text-decoration: none;
 }
 
 header .navbar a:hover {

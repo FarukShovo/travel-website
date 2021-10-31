@@ -12,8 +12,12 @@ import Login from "./components/Login/Login";
 import NotFound from "./components/NotFound/NotFound";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import PlaceOrder from "./components/PlaceOrder/PlaceOrder";
+import AddService from "./components/AddService/AddService";
 
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Details from "./components/Details/Details";
+import MyOrder from "./components/MyOrder/MyOrder";
+import ManageServices from "./components/ManageServices/ManageServices";
 
 function App() {
   return (
@@ -40,8 +44,23 @@ function App() {
           <Route exact path="/booking">
             <Booking></Booking>
           </Route>
+          <Route exact path="/details">
+            <Details></Details>
+          </Route>
+          <Route exact path="/myOrder">
+            <MyOrder></MyOrder>
+          </Route>
+          <Route exact path="/details">
+            <Details></Details>
+          </Route>
           <Route exact path="/review">
             <Review></Review>
+          </Route>
+          <Route exact path="/manageServices">
+            <ManageServices></ManageServices>
+          </Route>
+          <Route exact path="/addService">
+            <AddService></AddService>{" "}
           </Route>
           <PrivateRoute path="/placeorder">
             <PlaceOrder></PlaceOrder>

@@ -3,7 +3,7 @@ import { Redirect, Route } from "react-router-dom";
 import useFirebase from "../../Hooks/useFirebase";
 
 function PrivateRoute(props) {
-  console.log(props);
+  // console.log(props);
   const { children, ...rest } = props;
   const { user } = useFirebase();
   return (
