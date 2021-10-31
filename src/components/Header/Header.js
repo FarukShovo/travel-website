@@ -14,7 +14,7 @@ const Header = () => {
       </div>
 
       <Link to="/" className="logo">
-        <span>T</span>ravel
+        <span>T</span>ravelogue
       </Link>
 
       <nav className="navbar">

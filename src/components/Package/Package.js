@@ -11,7 +11,7 @@ const Package = (props) => {
         <img src={img} className="card-img-top" alt="..." />
 
         <div className="card-body">
-          <h3>{name}</h3>
+          <h3 className="text-center">{name}</h3>
           <h5>Description:{description}</h5>
           <h5>Price:{price}</h5>
 
